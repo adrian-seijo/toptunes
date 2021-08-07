@@ -1,0 +1,53 @@
+
+.options {
+	background: white;
+	padding: 20px 10px;
+}
+
+nav {
+	background: white;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+nav ul {
+	background-color: var(--gray-100);
+	border-radius: 4px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+nav a,
+nav a:hover,
+nav a:visited {
+	color: var(--gray-800);
+	text-decoration: none;
+}
+
+nav li {
+	display: inline-block;
+	border-radius: 4px;
+	padding: 8px 14px 8px 14px;
+}
+
+nav li.selected {
+	background-color: var(--theme-secondary-background-color);
+}
+
+nav li.selected a {
+	color: var(--theme-secondary-text-color);
+}
+
+nav li.selected .icon {
+	background-color: var(--theme-secondary-text-color);
+}
+
+.type-options,
+.layout-options {
+	max-width: 500px;
+}

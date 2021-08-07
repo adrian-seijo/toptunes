@@ -1,0 +1,111 @@
+
+:root {
+
+	--gray-100: #f2f2f3;
+	--gray-200: #dadcdd;
+	--gray-300: #c5c7c9;
+	--gray-400: #adb1b3;
+	--gray-500: #959a9d;
+	--gray-600: #7d8387;
+	--gray-700: #696f72;
+	--gray-800: #53585a;
+	--gray-900: #3d4042;
+
+	--blue-100: #e5f4ff;
+	--blue-200: #b8e1ff;
+	--blue-300: #8fd0ff;
+	--blue-400: #61bdff;
+	--blue-500: #33aaff;
+	--blue-600: #0597ff;
+	--blue-700: #0080db;
+	--blue-800: #0065ad;
+	--blue-900: #004a80;
+
+	--red-100: #ffe5e8;
+	--red-200: #ffb8be;
+	--red-300: #ff8f98;
+	--red-400: #ff616e;
+	--red-500: #ff3344;
+	--red-600: #ff051a;
+	--red-700: #db0012;
+	--red-800: #ad000e;
+	--red-900: #80000b;
+
+	--yellow-100: #fffde5;
+	--yellow-200: #fff9b8;
+	--yellow-300: #fff68f;
+	--yellow-400: #fff261;
+	--yellow-500: #ffee33;
+	--yellow-600: #ffea05;
+	--yellow-700: #dbc900;
+	--yellow-800: #ad9f00;
+	--yellow-900: #807500;
+
+	--green-100: #e8ffe5;
+	--green-200: #beffb8;
+	--green-300: #98ff8f;
+	--green-400: #6eff61;
+	--green-500: #44ff33;
+	--green-600: #1aff05;
+	--green-700: #12db00;
+	--green-800: #0ead00;
+	--green-900: #0b8000;
+
+	--theme-main-background-color: hsl(275deg, 76%, 42%);
+	--theme-main-text-color: white;
+
+	--theme-secondary-background-color: hsl(178deg, 100%, 24%);
+	--theme-secondary-text-color: white;
+
+	--theme-gradient-color-start: hsl(269deg, 96%, 38%);
+	--theme-gradient-color-end: hsl(281deg, 81%, 43%);
+
+	/* Add variables for spacing, sizes, etc */
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	background: var(--gray-100);
+	padding-top: 50px;
+	width: 100%;
+}
+
+.icon {
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	-webkit-mask-size: center;
+	background-color: var(--gray-900);
+	display: inline-block;
+	height: 48px;
+	mask-position: center;
+	mask-repeat: no-repeat;
+	mask-size: center;
+	text-indent: -999999px;
+	width: 48px;
+}
+
+.icon-small {
+	height: 18px;
+	width: 18px;
+}
+
+.icon-list {
+	-webkit-mask-image: url("/icons/bars.svg");
+	mask-image: url("/icons/bars.svg");
+}
+
+.icon-grid {
+	-webkit-mask-image: url("/icons/th.svg");
+	mask-image: url("/icons/th.svg");
+}

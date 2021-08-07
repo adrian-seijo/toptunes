@@ -1,0 +1,9 @@
+{
+	"extends": "stylelint-config-standard",
+	"rules": {
+		"indentation": "tab",
+		"custom-property-empty-line-before": null,
+		"color-hex-length": null
+	},
+	"ignoreFiles": ["dist/**/*.*"]
+}
